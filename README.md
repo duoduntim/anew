@@ -1,0 +1,2 @@
+# anew
+setting up Git 

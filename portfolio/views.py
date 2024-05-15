@@ -23,9 +23,9 @@ def contact(request):
         email = request.POST.get('email')
         print(sub,msg,email)
         return HttpResponse('email sent')
-        send_mail{
+        send_mail(
             sub,msg,'kwabsntim@gmail.com'
             [email]
-        }
+        )
 
     return render (request,'core/cont.html')
